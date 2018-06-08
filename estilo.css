@@ -1,0 +1,81 @@
+
+body{
+margin: 0;
+background-color: rgb(248, 234, 218);
+}
+nav{
+    background-color: rgb(105, 41, 4);
+    color: blanchedalmond;
+    display: flex;
+}
+h1{
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 25px;
+     
+ }
+
+#imgprincipal{ 
+    filter: grayscale(100%);
+    width: 100%;
+    height: 500px;
+}
+
+#imgprincipal:hover{
+    filter: grayscale(0%);
+}
+
+#title{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+#texto1{
+    margin: 0 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.imgformatada1{
+    width: 400px;
+    height: 250px;
+
+}
+.imgformatada2{
+    width: 400px;
+    height: 250px;
+}
+.corcard{
+    margin: 10px 100px 10px 80px;
+    border:solid 2px #7a3f32;
+    padding: 40px;
+    background-color: rgb(180, 101, 66);
+}
+#aolado{
+    display: flex;
+}
+
+h3{
+font-size: 30px;
+text-align: center;
+}
+
+.imgformatada1:hover{
+    filter: opacity(50%);
+} 
+
+.imgformatada2:hover{
+    filter: opacity(50%);
+} 
+
+#dicas{
+    margin-left: 80px;
+    font-size: 18px;
+}
+#dica{
+    margin-left: 570px;
+}
